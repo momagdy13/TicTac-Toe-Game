@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="TicTacToe">
+  <grid id="27dc6" binding="TicTacToe" layout-manager="GridLayoutManager" row-count="3" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="13" y="20" width="539" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <font name="Tahoma" size="72" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="f3506" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="b9dc2" class="javax.swing.JButton" binding="button3">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Tahoma" size="72" style="1"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="1d21c" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="3310a" class="javax.swing.JLabel">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16777216"/>
+              <enabled value="true"/>
+              <font name="Tahoma" size="36" style="1"/>
+              <foreground color="-7928576"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Player X"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="6e81e" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="c48b5" class="javax.swing.JTextField" binding="xCount">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <editable value="false"/>
+              <font name="Tahoma" size="48" style="1"/>
+              <foreground color="-16777216"/>
+              <horizontalAlignment value="0"/>
+              <text value="0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="1beeb" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-458761"/>
+        </properties>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="2ddce" class="javax.swing.JLabel">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Tahoma" size="36" style="1"/>
+              <foreground color="-16777216"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Player O"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="16f6b" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Yu Gothic UI" size="72" style="1"/>
+        </properties>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="4050f" class="javax.swing.JButton" binding="button6" default-binding="true">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Tahoma" size="72" style="1"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="fdcf3" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="a8e5" class="javax.swing.JButton" binding="button5" default-binding="true">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Tahoma" size="72" style="1"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="684aa" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <font/>
+          <title-color color="-4473925"/>
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="713b5" class="javax.swing.JButton" binding="button4" default-binding="true">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Tahoma" size="72" style="1"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="993bc" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="fa6bf" class="javax.swing.JTextField" binding="oCount">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <editable value="false"/>
+              <font name="Tahoma" size="48" style="1"/>
+              <foreground color="-16777216"/>
+              <horizontalAlignment value="0"/>
+              <text value="0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c0982" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-458761"/>
+        </properties>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="da74" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <enabled value="true"/>
+              <font name="Tahoma" size="28" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Exit"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="ecf25" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-458761"/>
+        </properties>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="58a05" class="javax.swing.JButton" binding="resetButton" default-binding="true">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <font name="Tahoma" size="28" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Reset"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e15c5" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="fa867" class="javax.swing.JButton" binding="button9">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Tahoma" size="72" style="1"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="edfbe" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="11b64" class="javax.swing.JButton" binding="button7">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Tahoma" size="72" style="1"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="89840" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="92823" class="javax.swing.JButton" binding="button2">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Tahoma" size="72" style="1"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e2129" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="3907" class="javax.swing.JButton" binding="button1">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Tahoma" size="72" style="1"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="57966" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="baa08" class="javax.swing.JButton" binding="button8" default-binding="true">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Tahoma" size="72" style="1"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
